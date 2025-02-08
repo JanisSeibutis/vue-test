@@ -31,7 +31,7 @@ export const useShopStore = defineStore('shop', () => {
     },
   ]
 
-  nextId()
+  // nextId()
 
   return { shopItems, nextId }
 })
