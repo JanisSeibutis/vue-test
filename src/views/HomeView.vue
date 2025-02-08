@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useShopStore } from '../stores/counter'
+
+const shopStore = useShopStore()
+</script>
 
 <template>
   <main>
